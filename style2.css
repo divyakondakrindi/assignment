@@ -1,0 +1,165 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #111111;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+  
+.left-sidebar{
+    position: absolute;
+    background-color:#262626;
+    height: 780px;
+    width:300px;
+     border-radius: 40px;
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+    
+     /* width: 294px;
+     height: 751px;
+     left: 8px;
+     top: 7px;
+     background: rgb(38, 38, 38);
+     border-radius: 30px; */
+ 
+
+ 
+}
+#tony_image{
+    width: 210px;
+    margin-top: 20px;
+   margin-bottom: 20px;
+   border-radius: 1000px;
+}
+#aside-bar{
+    margin-top: 30px;  
+    text-align: center;
+    align-content: space-between;
+}
+.heading_info{
+    color: #ffffff;
+    padding-left: 15px;
+    /* margin-bottom: 30px;
+    padding-bottom: 30px; */
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'poppins';
+}
+.second_head{
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+#btn{
+    width: 270px;
+    height: 50px;
+    background-color: #111111;
+    border-radius: 30px;
+   
+    align-content: space-between;
+    font-family: 'poppins';
+    color: rgba(255, 255, 255, 0.5);
+}
+.heading-info-img{
+    position:absolute;
+    width: 1300px; 
+    height: 475px;
+    left: 314px;
+    top: 7px;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.para{
+    width:528px;
+    font-size: 16px;
+    margin-top:36px;
+    margin-left:36px;
+}
+a{
+    color:rgba(255, 255, 255, 0.5);
+}
+.info-head{
+    width: 477px;
+    height: 316px;
+}
+h2{
+    color:white;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:36px;
+}
+#ironimg{
+    
+    margin:-265px 7px 0px 500px;
+    /* background-color: aliceblue; */
+    width: 626px;
+    height: 265px;
+}
+#tony_action_image{
+   /* width: 600px; 
+   height: 300px; */
+   width: 656px;
+    height: 500px;
+    padding-bottom: 150px;
+    margin-left: 100px;
+}
+.table{
+    position: absolute;
+    width: 1300px;
+    height: 457px;
+    left: 336px;
+    top:510px;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+}
+table{
+    width:100%;
+     height:100%;
+ border-collapse:collapse;
+  
+}
+.data{
+    margin-top:25px;
+    margin-left:40px;
+
+    border:2px solid grey;
+    border-radius:30px;
+    width:1090px;
+    height:257px;
+}
+.table_rows{
+    text-align: left;
+    padding-left: 10px;
+}
+th{
+   
+   
+    height: 50px;
+    border-bottom:2px solid grey;
+    border-right:2px solid grey;
+
+}
+td{ 
+    
+    border-right:2px solid grey;
+    
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+td:last-child,th:last-child{
+border-right: none;
+}
